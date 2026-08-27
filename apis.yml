@@ -1,10 +1,9 @@
 aid: bloomberg-message
 name: Bloomberg Message
-description: Bloomberg Message is the core messaging service within the Bloomberg
-  Terminal ecosystem, enabling financial professionals to communicate securely through
-  the Bloomberg IB (Instant Bloomberg) messaging system. It provides a compliant,
-  archived communication channel for trading desks, asset managers, and financial
-  institutions to exchange information, research, and trade-related messages.
+description: Bloomberg Message is the core messaging service within the Bloomberg Terminal ecosystem, enabling financial
+  professionals to communicate securely through the Bloomberg IB (Instant Bloomberg) messaging system. It provides
+  a compliant, archived communication channel for trading desks, asset managers, and financial institutions to exchange
+  information, research, and trade-related messages.
 type: Index
 accessModel:
   pricing: freemium
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-message.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-message/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Messaging
@@ -33,9 +32,9 @@ tags:
 apis:
 - aid: bloomberg-message:bloomberg-ib-service
   name: Bloomberg IB (Instant Bloomberg)
-  description: Bloomberg's primary secure messaging service for financial professionals,
-    providing real-time message delivery, group chats, broadcast lists, and file
-    sharing within the Bloomberg Terminal and Bloomberg Anywhere environments.
+  description: Bloomberg's primary secure messaging service for financial professionals, providing real-time message
+    delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and Bloomberg Anywhere
+    environments.
   humanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/
   baseURL: blpapi://localhost:8194
   tags:
@@ -48,8 +47,8 @@ apis:
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 - aid: bloomberg-message:bloomberg-email-gateway
   name: Bloomberg Email Gateway
-  description: Gateway service enabling Bloomberg IB messages to be sent and received
-    via email for communication with counterparties not on the Bloomberg network.
+  description: Gateway service enabling Bloomberg IB messages to be sent and received via email for communication
+    with counterparties not on the Bloomberg network.
   humanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/
   baseURL: https://messaging.bloomberg.com/email
   tags:
@@ -60,6 +59,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-message-domain-security.yml
 - type: Portal
@@ -95,8 +99,9 @@ common:
   - name: Compliance Records
     description: Maintain compliant records of financial communications for regulators.
   - name: Market Commentary
-    description: Share market commentary and analysis with clients through broadcast
-      messages.
+    description: Share market commentary and analysis with clients through broadcast messages.
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
