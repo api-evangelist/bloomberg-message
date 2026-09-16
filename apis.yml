@@ -1,9 +1,9 @@
 aid: bloomberg-message
 name: Bloomberg Message
-description: Bloomberg Message is the core messaging service within the Bloomberg Terminal ecosystem, enabling financial
-  professionals to communicate securely through the Bloomberg IB (Instant Bloomberg) messaging system. It provides
-  a compliant, archived communication channel for trading desks, asset managers, and financial institutions to exchange
-  information, research, and trade-related messages.
+description: Bloomberg Message is the core messaging service within the Bloomberg Terminal ecosystem,
+  enabling financial professionals to communicate securely through the Bloomberg IB (Instant Bloomberg)
+  messaging system. It provides a compliant, archived communication channel for trading desks, asset managers,
+  and financial institutions to exchange information, research, and trade-related messages.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-message.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-message/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Messaging
@@ -43,9 +43,9 @@ tags:
 apis:
 - aid: bloomberg-message:bloomberg-ib-service
   name: Bloomberg IB (Instant Bloomberg)
-  description: Bloomberg's primary secure messaging service for financial professionals, providing real-time message
-    delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and Bloomberg Anywhere
-    environments.
+  description: Bloomberg's primary secure messaging service for financial professionals, providing real-time
+    message delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and
+    Bloomberg Anywhere environments.
   humanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/
   baseURL: blpapi://localhost:8194
   tags:
@@ -70,6 +70,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
