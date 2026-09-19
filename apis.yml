@@ -64,6 +64,10 @@ apis:
   baseURL: https://messaging.bloomberg.com/email
   tags:
   - Email
+  - Gateways
+  - External Communication
+  tags_raw:
+  - Email
   - Gateway
   - External Communication
   properties:
