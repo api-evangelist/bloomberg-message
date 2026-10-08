@@ -77,6 +77,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 common:
+- type: Plans
+  url: plans/bloomberg-message-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-message-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-message-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
